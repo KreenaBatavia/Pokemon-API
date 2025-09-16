@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:blueviolet;
+    background-image: url(assests/background-overlay.jpg);   
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/*----Navbar----*/
+
+.pokemon-logo{
+    height: 50px;
+    width: 120px;
+}
+
+.custom-table {
+    width: 100%;
+    max-width: 800px; 
+    padding: 1rem;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.details-container{
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(247, 207, 62);
+}
+
+#pokemon-image{
+    height: 300px;
+} 
+
+#next-button{
+    float: right;
+}
+
+#toggle-mode-btn{
+    background-color: rgb(247, 207, 62);
+}
+
+#load-more-btn{
+    background-color: rgb(247, 207, 62);
+}
